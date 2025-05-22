@@ -1,2 +1,2 @@
 [servers]
-mn1 ansible_host=192.168.111.130 ansible_user=qfmgayao
+mn1 ansible_host=192.168.111.130 ansible_user=qfmgayao ansible_ssh_pass=dikoalam1991
