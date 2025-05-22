@@ -1,2 +1,2 @@
-[inventory]
-192.168.56.11
+[servers]
+mn2 ansible_host=192.168.65.129 ansible_user=qfmgayao
