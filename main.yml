@@ -36,7 +36,7 @@
     - name: Add SSH public key for user
       authorized_key:
         user: workstation
-        key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+        key: "{{ lookup('file', '/home/qfmgayao/.ssh/id_rsa.pub') }}"
         state: present
 
     - name: Add sudoer rule for local user
