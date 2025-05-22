@@ -19,19 +19,6 @@
         name: '*'
         state: latest
 
-    - name: Ensure firewalld and python3 bindings are installed
-      package:
-        name:
-          - firewalld
-          - python3-firewall
-        state: present
-
-    - name: Ensure firewalld is running and enabled
-      service:
-        name: firewalld
-        state: started
-        enabled: true
-
     - name: Add admin group
       group:
         name: admin
